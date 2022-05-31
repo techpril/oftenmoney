@@ -51,4 +51,15 @@ export const GlobalStyle = createGlobalStyle`
         cursor: not-allowed;
     }
 
+    .title_logo {
+        color: var(--shape);
+        padding-left: 0.5rem;
+    }
+
+    .align-div {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
 `
