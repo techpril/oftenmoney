@@ -3,9 +3,6 @@ import IncomeImg from '../../assets/income.svg'
 import OutcomeImg from '../../assets/outcome.svg'
 import TotalImg from '../../assets/total.svg'
 
-
-
-
 export function Summary() {
     return (
         <Container>
