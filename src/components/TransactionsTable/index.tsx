@@ -18,7 +18,6 @@ export function TransactionsTable() {
                         <th>Valor</th>
                         <th>Categoria</th>
                         <th>Data</th>
-
                     </tr>
                 </thead>
 
