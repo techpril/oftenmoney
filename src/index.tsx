@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { createServer, Model } from 'miragejs';
 import { App } from './App';
 
@@ -19,8 +19,17 @@ createServer({
           category: 'Desenvolvimento',
           amount: 8000,
           createdAt: new Date('2022-06-14 09:00:00'),
+        },
+
+        {
+          id: 2,
+          title: 'Aluguel',
+          type: 'withdraw',
+          category: 'Casa',
+          amount: 1000,
+          createdAt: new Date('2022-06-14 09:00:00'),
         }
-      ]
+      ],
     })
   },
 
@@ -28,7 +37,7 @@ createServer({
     this.namespace = 'api';
 
     this.get('/transactions', () => {
-      return this.schema.all('/transaction');
+      return this.schema.all('transaction');
     }) 
 
     this.post('/transaction', (schema, request)=>{
@@ -39,11 +48,9 @@ createServer({
   }
 })
 
-ReactDOM.render(
+const root = createRoot(document.getElementById("root") as HTMLElement);
+root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
 );
-
-
