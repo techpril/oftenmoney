@@ -17,7 +17,7 @@ export function Summary() {
                     <img src={IncomeImg} alt="Entradas" />
                 </header>
                 <strong>
-                    R$1000,00
+                    R$8000,00
                 </strong>
             </div>
 
@@ -27,7 +27,7 @@ export function Summary() {
                     <img src={OutcomeImg} alt="Saídas" />
                 </header>
                 <strong>
-                    - R$500,00
+                    - R$1000,00
                 </strong>
             </div>
 
@@ -37,7 +37,7 @@ export function Summary() {
                     <img src={TotalImg} alt="Total" />
                 </header>
                 <strong>
-                    R$500,00
+                    R$7000,00
                 </strong>
             </div>
 
