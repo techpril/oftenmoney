@@ -6,6 +6,6 @@
 
 ![Inicio](public/inicial.png)
 
-###### Modal p
+###### A modal 
 
 ![Inicio](public/modal.png)
