@@ -10,3 +10,7 @@
 ###### A modal 
 
 ![Inicio](public/modal.png)
+
+###### Rodar o projeto
+
+###### yarn start
